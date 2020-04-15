@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.primary-color {
+    background-color: #00adb5;
+}
+
+.secondary-color {
+    background-color: #393e46;
+}
+
+.text-color-prm {
+    color: #EEEEEE;
+}
+
+.text-cntr {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links a:not(.ul-ex):hover{
+    border-bottom: 2px solid #393e46;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(0,0,0,.2);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------- */
+
+.landing {
+    height: 650px;
+}
